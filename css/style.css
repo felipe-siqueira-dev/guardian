@@ -1,9 +1,11 @@
 :root{
     --cor-de-fundo:#6DB9EF;
+    --cor-fonte:#fff;
     --fonte-titulo:"Oleo script";
 }
 
 body{
+    color: var(--cor-fonte);
     width: 100vw;
     height: 100vh;
     background-color: var(--cor-de-fundo);
@@ -12,7 +14,7 @@ body{
     flex-direction: column;
 }
 
-main{
+.principal{
     width: 100%;
     height: 90%;
     display: flex;
@@ -22,25 +24,38 @@ main{
     text-align: center;
 }
 
-.titulo_app{
+.principal__img{
+    height: 149px;
+    width:146px;
+}
+
+.principal__titulo-app{
     font-family: var(--fonte-titulo);
     margin: 16px 0px 15px 0;
     color: #f4f27e;
     font-size: 30px;
 }
 
-img{
-    height: 149px;
-    width:146px;
-}
 
 input{
     width:212px;
     height: 45px;
-    color:#fff;
+    margin-top: 56px;
+    color:var(--cor-fonte);
     background-color: #3081D0;
     border: solid 1px #3081D0;
     border-radius:5px;
+}
+
+.principal__login{
+    width: 212px;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    text-align:right;
+}
+
+.principal__login p{
+    margin: 5px;
 }
 
 footer{
