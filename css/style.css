@@ -1,7 +1,13 @@
+@import url('./aboutUs.css');
+@import url('./cadastro.css');
+@import url("./cadastroP.css");
+
 :root{
     --cor-de-fundo:#6DB9EF;
+    --cor-de-fundo-secundaria:#3081D0;
     --cor-fonte:#fff;
     --fonte-titulo:"Oleo script";
+    --fonte-texto:"Roboto"
 }
 
 body{
@@ -37,10 +43,15 @@ body{
 }
 
 
-input{
+.principal__cadastro{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:212px;
     height: 45px;
     margin-top: 56px;
+    font-size: 20px;
     color:var(--cor-fonte);
     background-color: #3081D0;
     border: solid 1px #3081D0;
@@ -48,7 +59,9 @@ input{
 }
 
 .principal__login{
-    width: 212px;
+    margin-right: 22%;
+    align-self:flex-end;
+    width: 25%;
     text-decoration: none;
     color: var(--cor-fonte);
     text-align:right;
@@ -60,4 +73,9 @@ input{
 
 footer{
     height: 10%;
+}
+
+.rodape__texto{
+    text-decoration: none;
+    color:var(--cor-fonte);
 }

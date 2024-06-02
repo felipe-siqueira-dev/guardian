@@ -1,0 +1,53 @@
+.cadastroP__titulo{
+    margin: 45px 0 10px 0;
+    font-size: 35px;
+    font-family: var(--fonte-texto);
+    text-align: center;
+}
+
+.formularioInscricao{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    font-size: 15px;
+    font-family: var(--fonte-texto);
+}
+
+.campo p{
+    margin-left:10px;
+    font-size: 20px;
+}
+
+.campo input{
+    padding: 0 10px;
+    width:297px;
+    height:38px;
+    background-color: var(--cor-de-fundo-secundaria);
+    border:hidden;
+    border-radius: 10px;
+    color: var(--cor-fonte);
+}
+
+.submeter{
+    margin-top: 20px;
+    width:197px;
+    height: 27px;
+    align-self: center;
+    background-color: var(--cor-de-fundo-secundaria);
+    color: var(--cor-fonte);
+    text-align: center;
+    border: hidden;
+    border-radius: 10px;
+}
+
+::-webkit-input-placeholder{
+    color:var(--cor-fonte);
+    font-size: 15px;
+    font-family: var(--fonte-texto);
+}

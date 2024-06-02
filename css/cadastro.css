@@ -1,0 +1,51 @@
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro__titulo{
+    margin:120px 0 70px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;;
+    font-family: var(--fonte-texto);
+}
+
+.cadastro__botoes{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.cadastro__botao-paciente,
+.cadastro__botao-psi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-size: 20px;
+    font-family: var(--fonte-texto);
+    width: 212px;
+    height: 45px;
+    background-color: var(--cor-de-fundo-secundaria);
+    border-radius: 10px;
+}
+
+.rodapeCA{
+    width: 50%;
+    margin-top:10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodapeCA__texto{
+    width: 20%;
+    height:20px;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+}
