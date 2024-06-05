@@ -11,15 +11,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./index.js" defer></script>
     <title>Guardião</title>
   </head>
   <body>
     <header class="cabecalho">
-      <img
+      <a href="./index.html"><img
         class="cabecalho__img"
         src="./img/angelGuardian.png"
         alt="Asas e auréola de anjo"
-      />
+      /></a>
       <h1 class="cabecalho__titulo">Cadastro</h1>
       <div class="alinhamento"></div>
     </header>
@@ -76,7 +78,12 @@
             required
           />
         </label>
-        <input class="submeter" type="submit" value="Cadastrar" />
+        <input
+          class="submeter"
+          type="button"
+          onclick="cadastrarContato()"
+          value="Cadastrar"
+        />
       </form>
     </main>
     <footer class="rodapeCA">

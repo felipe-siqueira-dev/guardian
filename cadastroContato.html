@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./index.js" defer></script>
+    <title>Guardião</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        class="cabecalho__img"
+        src="./img/angelGuardian.png"
+        alt="Asas e auréola de anjo"
+      />
+      <h1 class="cabecalho__titulo">Cadastro</h1>
+      <div class="alinhamento"></div>
+    </header>
+    <main class="cadastroP">
+      <h1 class="cadastroP__titulo">Contato de emergência</h1>
+      <form class="formularioInscricao" action="">
+        <label class="campo" for="nome"
+          ><p>Nome</p>
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            placeholder="Insira o nome do seu contato de emergência aqui"
+            required
+          />
+        </label>
+        <label class="campo" for="telefone"
+          ><p>Telefone</p>
+          <input
+            id="telefone"
+            name="telefone"
+            type="tel"
+            placeholder="Insira o número de teleofone aqui"
+            required
+          />
+        </label>
+        <input class="submeter" type="button" onclick="confirmacaoCtt()" value="Cadastrar" />
+      </form>
+    </main>
+    <footer class="rodapeCA">
+      <a class="rodapeCA__texto" href="./cadastro.html"><p>Voltar</p></a>
+    </footer>
+  </body>
+</html>

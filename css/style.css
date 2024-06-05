@@ -1,6 +1,7 @@
 @import url('./aboutUs.css');
 @import url('./cadastro.css');
 @import url("./cadastroP.css");
+@import url("./usuario.css");
 
 :root{
     --cor-de-fundo:#6DB9EF;

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./index.js" defer></script>
+    <title>Guardião</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="./index.html"
+        ><img
+          class="cabecalho__img"
+          src="./img/angelGuardian.png"
+          alt="Asas e auréola de anjo"
+      /></a>
+      <h1 class="cabecalho__titulo">Login</h1>
+      <div class="alinhamento"></div>
+    </header>
+    <main class="cadastro">
+      <form class="formularioInscricao" action="">
+        <label class="campo" for="emailLogin"
+          ><p>Email</p>
+          <input
+            id="emailLogin"
+            name="emailLogin"
+            type="email"
+            placeholder="email@email.com"
+            required
+          />
+        </label>
+        <label class="campo" for="senhaLogin"
+          ><p>Senha</p>
+          <input
+            id="senhaLogin"
+            name="senhaLogin"
+            type="password"
+            placeholder="senha"
+            required
+          />
+        </label>
+        <input
+          class="submeter"
+          type="button"
+          onclick="validaUsuario()"
+          value="Entrar"
+        />
+      </form>
+    </main>
+    <footer class="rodapeCA">
+      <a class="rodapeCA__texto" href="./index.html"><p>Voltar</p></a>
+    </footer>
+  </body>
+</html>

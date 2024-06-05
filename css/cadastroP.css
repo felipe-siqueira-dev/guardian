@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+.cabecalho__titulo{
+    text-align: center;
+}
+
 .formularioInscricao{
     display: flex;
     flex-direction: column;
@@ -47,7 +51,7 @@
 }
 
 ::-webkit-input-placeholder{
-    color:var(--cor-fonte);
+    color:rgba(255, 255, 255, 0.5);
     font-size: 15px;
     font-family: var(--fonte-texto);
 }
